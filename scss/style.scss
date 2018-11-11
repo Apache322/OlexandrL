@@ -1,15 +1,12 @@
-#menu{
-    position:fixed;
-    top:0; left:0;
-    width:100%;
-}
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import './reset.min.css';
+@import './button.scss';
 
 #menu {
-  border: 3px solid #ededed;
     text-transform: uppercase;
     text-align: center;
     line-height: 50px;
-    background: #fff;
+    background: #69c;
 }
   #menu ul {
     padding:0;
@@ -22,21 +19,10 @@
   }
      #menu li a {
         padding:5px 10px;
-        color:blue;
+        color:#fff;
         text-decoration: none;
      }
      #menu li a:hover{
         background: #36c;
         color: #ff0;
      }
-        .fixed {
-            position:fixed;
-}
-
-i {float: right; margin-right: 15px; color: blue;}
-.position {float: left;}
-.coll1 {float:left; width: 20%; border:3px solid #ededed;
-margin-top: 50px }
-.coll2 {border:3px solid #ededed; margin: 30px}
-button {background-color:red;
-      letter-spacing: 0.15em;}
